@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#header_menu
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu_left
+{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+.main_menu{
+    display: flex;
+    
+}
+.menu_right
+{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin-right: 30px;
+}
+.logo
+{
+    margin-right: 60px;
+}
+.item
+{
+    margin-right: 20px;
+}
+.search
+{
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background-color:#D5DBE2;
+    margin-right: 20px;
+    border-radius: 3px;
+   
+}
+.content_search
+{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.ti-search
+{
+    position: absolute;
+    top:10px;
+    left: 10px  ;
+    
+}
+.right_item
+{
+    margin-right: 20px;
+}
+#center .container
+{
+    margin: 0 140px;
+}
+.sub_menu div 
+{
+    display: inline;
+}
+.sub_menu
+{
+    margin-top: 30px;
+}
+.center_top
+{
+    margin-top: 60px;
+}
+.product_title
+{
+    margin-top: 30px;
+    font-size: 50px;
+}
+.ratting{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.right div{
+    display: inline-block;
+    margin-right: 20px;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    
+    'menu main right '
+    'menu footer header';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
