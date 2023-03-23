@@ -288,5 +288,49 @@ table {
     top: 30px;
     left: 180px;
 }
+.related_products_top{
+    display: flex;
+    justify-content: space-between;
+}
+.related_products_top .icon_right{
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
 
+.lasted_product_bottom .bottom_item
+{
+    position: relative;
+    margin-top: 15px;
+    
+}
+.bottom_item .title{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.bottom_item .heart{
+    position: absolute;
+    top: 245px;
+    left: 250px;
+    margin-top: 15px;
+}
+.bottom_item .money{
+    font-size: 20px;
+    color: aqua;
+    margin-top: 15px;
+}
 
+.related_product_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.bottom_item .image{
+    width: 100%;
+}
+.rating_content{
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between ;
+}
